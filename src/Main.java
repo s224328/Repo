@@ -18,10 +18,7 @@ public class Main {
                     result = firstNumber + secondNumber;
                     System.out.println(result);
                 }
-                else if (action.contains("-")){
-                    result = firstNumber - secondNumber;
-                    System.out.println(result);
-                }
+
                 else if (action.contains("*")){
                     result = firstNumber * secondNumber;
                     System.out.println(result);
