@@ -14,14 +14,11 @@ public class Main {
                 System.out.println("type + for addition, - for subtraction, * for multiplication or / to divide");
                 String action = input.next();
 
-                if (action.contains("+")) {
+                if (action.contains("*")) {
                     result = firstNumber + secondNumber;
                     System.out.println(result);
                 }
-                else if (action.contains("-")){
-                    result = firstNumber - secondNumber;
-                    System.out.println(result);
-                }
+
                 else if (action.contains("*")){
                     result = firstNumber * secondNumber;
                     System.out.println(result);
